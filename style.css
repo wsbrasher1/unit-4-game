@@ -1,0 +1,71 @@
+body {
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    background: url("stones_jewels_diamonds_80294_1280x1024.jpg");
+  }
+
+.jumbotron {
+  text-align: center;
+  padding: 5px 0px 5px 0px;
+  margin-bottom: 0px;
+  background-color: red;
+}
+.display-4 {
+  background-color: red;
+}
+.directions {
+  text-align: left;
+}
+.row {
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px; 
+  opacity: .9;
+}
+.col-12 {
+  background-color: #bdbdbd;
+}
+.col-3 {
+border: #757575 2px solid;
+background-color: #9e9e9e;
+color: white;
+}
+
+.col-6 {
+  border: #757575 2px solid;
+  background-color: #9e9e9e;
+  color: white;
+}
+
+.col-2 {
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.crystals {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.crystal {
+  border: 1px solid green;
+  height: 100px;
+  width: 100px;
+  border-radius: 4px;
+  box-shadow: 5px, 5px, 5px rgba(0,0,0, 0.5);
+}
+
+.crystal:hover{
+  box-shadow: 15px, 15px, 15px rgba(0,0,0, 0.5);
+  padding: 10px;
+  cursor: pointer;
+}
+
+.jp (
+  width: 100px;
+  height: 100px;
+)

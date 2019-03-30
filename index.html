@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Run The Jewels</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+                <div class="jumbotron jumbotron-fluid">
+                        <div class="container">
+                          <h1 class="display-4"><img src="rtj_logo.png"></h1>
+                          <p class="lead">aka Crystal Collector</p>
+                        </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                    <section class="directions">
+                        <p>You will be given a random number at the start of the game.</p>
+                        <p>There are four jewels below. By clicking on a jewel you will add a specific amount of points to your total score.</p>
+                        <p>You win the game by matching your total score to the target number shown. You lose the game of your total score goes above that of the target number.</p>
+                        <p>The value of each jewel is hidden from you until you click on it.</p>
+                        <p>Each time the game starts, the value of each crystal will change.</p>
+                    </section>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <section class="title">
+                            <h4>Target Number:</h4>
+                        </section>
+                    </div>
+                    <div class="col-3">
+                        <section class="title">
+                            <h4>Your Total Score:</h4>
+                        </section>
+                    </div>
+                    <div class="col-6">
+                        <section class="title">
+                            <h4>Your Jewels - Click Away!</h4>
+                        </section>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-3">
+                        <section id="result">
+                            <h3></h3>
+                        </section>
+                    </div>
+                    <div class="col-3">
+                            <section class="score">
+                                <p id="previous"></p>
+                            </section>
+                    </div>
+
+                    <div class="col-6">
+                    <section class="jewels">
+                            <div class="crystals" >
+                                    
+                            </div>
+                    </section>
+                    </div>
+                    
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                            <button type="button" class="btn btn-danger" id="wins">
+                                    Total Wins <span id="winsSpan" class="badge badge-light">0</span>
+                                    <span class="sr-only">unread messages</span>
+                            </button>
+                    </div>
+                    <div class="col-2">
+                            <button type="button" class="btn btn-danger" id="losses">
+                                    Total Losses <span id="lossesSpan" class="badge badge-light">0</span>
+                                    <span class="sr-only">unread messages</span>
+                            </button>
+                    </div>
+                </div>
+
+        </header>
+    </div>
+    <script src="assets/javascript/game.js"></script>
+</body>
+</html>
