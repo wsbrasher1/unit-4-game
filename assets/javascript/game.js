@@ -4,9 +4,9 @@ var losses = 0;
 var wins = 0;
 var previous = 0;
 
-
 var resetAndStart = function (){
     $(".crystals").empty();
+    
 var images = [
     "assets/images/diamond-isolated-background-gem-jewel-precious-stone-precious-gem-precious-jewel-91456547.png", 
     "assets/images/emerald-on-a-black-background-vector-15882721.png", 

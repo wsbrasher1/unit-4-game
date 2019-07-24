@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
-    <audio src="Call Ticketron.mp3" id="my-audio" loop="loop" autoplay="autoplay"></audio>
+    <audio id="pop" src="Call-Ticketron.mp3"  loop="loop" preload="auto"></audio>
 </head>
 <body>
     <div class="container">
@@ -88,5 +88,9 @@
         </header>
     </div>
     <script src="assets/javascript/game.js"></script>
+    <audio controls id="player">
+        <source src="./assets/sounds/Call-Ticketron.mp3" type="audio/mp3">
+      Your browser does not support the audio element.
+      </audio>
 </body>
 </html>
